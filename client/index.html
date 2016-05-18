@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>File Uploader</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <style>
+      img{
+        padding-bottom: 20px;
+        padding-top: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <form id="upload-form">
+      <h2>Select Image to Upload</h2>
+        <input type="file" name="file" id="file" />
+        <br>
+        <input type="submit" value="Upload" id='upload' />
+    </form>
+<div id="image-box">
+</div>
+<script src="build/react.js"></script>
+<script src="build/react-dom.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.23/browser.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+<script type="text/javascript" src="client.js"></script>
+<script type="text/babel" src="components.js"></script>
+  </body>
+</html>
